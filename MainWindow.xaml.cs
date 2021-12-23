@@ -36,6 +36,9 @@ namespace HelloWorld
                     break;
                 case "Age":
                     txtAge.Text = User.Age.ToString();
+                    DateTime dt = DateTime.Now;
+                    int year = dt.Year - Convert.ToInt32(txtAge.Text) + 1;
+                    txtTime.Text = year.ToString();
                     break;
             }
         }
