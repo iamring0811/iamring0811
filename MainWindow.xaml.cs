@@ -24,7 +24,6 @@ namespace HelloWorld
         public MainWindow()
         {
             InitializeComponent();
-
         }
         private void User_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
         {
